@@ -28,3 +28,17 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Included features examples
+
+### ESLint on dev server
+
+![ESLint](./git-images/eslint.png)
+
+### Unit tests with react-testing-library
+
+![Unit tests](./git-images/unit-test.png)
+
+### E2E tests with Playwright
+
+![E2E](./git-images/e2e.png)
