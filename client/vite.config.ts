@@ -10,6 +10,11 @@ import checker from 'vite-plugin-checker';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    proxy: {
+      '/documents': 'http://localhost:3001',
+    },
+  },
   plugins: [
     react(),
     checker({

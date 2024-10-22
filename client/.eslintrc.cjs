@@ -10,7 +10,14 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs', 'test-results', 'playwright-report'],
+  ignorePatterns: [
+    'dist',
+    'test-results',
+    'playwright-report',
+    'docker-compose.yaml',
+    'package-lock.json',
+    '.eslintrc.cjs',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
